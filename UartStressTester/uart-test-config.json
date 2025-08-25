@@ -1,0 +1,20 @@
+{
+  "targetProgram": "Uartcmd.exe",
+  "testCommands": [
+    "trans 0x01050003FF007C3A COM3",
+    "trans 0x0105000300003DCA COM3",
+    "trans 0x01050002FF002DFA COM3",
+    "trans 0x0105000200006C0A COM3"
+  ],
+  "testCount": 100,
+  "delayMs": 500,
+  "commandTimeoutMs": 20000,
+  "enableDetailedLog": true,
+  "reportFormat": "txt",
+  "description": "UART 串列通訊壓力測試",
+  "metadata": {
+    "version": "2.0",
+    "author": "UART StressTest Tool",
+    "created": "2025-08-22"
+  }
+}
