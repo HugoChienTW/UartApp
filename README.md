@@ -3,26 +3,25 @@
 
 
 ## :feet: File list
-
-\ (Project root directory)
-├─README.md
-├─UartCommunicator.sln
-├─.gitignore
-├─UartApp
-│  ├─ UartApp.csproj
-│  ├─ Program.cs
-│  ├─ SerialPortWrapper.cs
-│  ├─ UartCommunicator.cs
-│  └─ ISerialPortWrapper.cs
-├─UartApp.Tests
-│  ├─ UartApp.Tests.csproj
-│  ├─ IntegrationTests.cs
-│  └─ UartCommunicatorTests.cs
-├─UartStressTester
-    └─UartStressTester
-        ├─UartStressTester.csproj
-        ├─Program.cs
-        └─uart-test-config.json
+        
+- Project/
+  - README.md
+  - UartCommunicator.sln
+  - .gitignore
+  - UartApp/
+    - UartApp.csproj
+    - Program.cs
+    - SerialPortWrapper.cs
+    - UartCommunicator.cs
+    - ISerialPortWrapper.cs
+  - UartApp.Tests/
+    - UartApp.Tests.csproj
+    - IntegrationTests.cs
+    - UartCommunicatorTests.cs
+  - UartStressTester/
+    - UartStressTester.csproj
+    - Program.cs
+    - uart-test-config.json
 
 ## :feet: Build
 :::success
